@@ -2,15 +2,15 @@
 
 ## Introduction
 In this project, 3 machine learning algorithms are implemented using the Scikit-learn library on a dataset about insurance beneficiaries’ personal information and the individual medical costs charged by the health insurance. The goal is to use the machine learning algorithms to predict the amount of medical costs charged by health insurance given the personal information of the beneficiaries and compare the performances of the algorithms. The 3 algorithms employed are
-- Stochastic Gradient Descent Regression (SGD Regression) at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Final-Project/blob/main/SGD_regression.py" target="_blank">SGD_regression.py</a>, 
-- Support Vector Regression (SVR) at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Final-Project/blob/main/SVR.py" target="_blank">SVR.py</a>, and
-- Decision Tree Regression at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Final-Project/blob/main/Decision_tree_regression.py" target="_blank">Decision_tree_regression.py</a>.
+- Stochastic Gradient Descent Regression (SGD Regression) at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Project/blob/main/SGD_regression.py" target="_blank">SGD_regression.py</a>, 
+- Support Vector Regression (SVR) at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Project/blob/main/SVR.py" target="_blank">SVR.py</a>, and
+- Decision Tree Regression at <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Project/blob/main/Decision_tree_regression.py" target="_blank">Decision_tree_regression.py</a>.
 
-A trivial algorithm (<a href="https://www.google.com/" target="_blank">Trivial_baseline.py</a>) is also implemented to serve as a baseline for comparison. The algorithms are run on the same dataset separately and the mean squared errors of their predictions on the test set are compared with each other.
+A trivial algorithm (<a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Project/blob/main/Trivial_baseline.py" target="_blank">Trivial_baseline.py</a>) is also implemented to serve as a baseline for comparison. The algorithms are run on the same dataset separately and the mean squared errors of their predictions on the test set are compared with each other.
 
 ## Problem Formulation 
 ### Background of the Dataset
-The dataset used in this project is the file <a href="https://www.google.com/" target="_blank">insurance.csv</a> which is downloaded from Kaggle. The dataset is originally from the book Machine Learning with R by Brett Lantz. The dataset can be downloaded at <a href="https://www.kaggle.com/mirichoi0218/insurance" target="_blank">Medical Cost Personal Datasets on Kaggle</a>.
+The dataset used in this project is the file <a href="https://github.com/ZhengEnThan/CMPUT466-Machine-Learning-Project/blob/main/insurance.csv" target="_blank">insurance.csv</a> which is downloaded from Kaggle. The dataset is originally from the book Machine Learning with R by Brett Lantz. The dataset can be downloaded at <a href="https://www.kaggle.com/mirichoi0218/insurance" target="_blank">Medical Cost Personal Datasets on Kaggle</a>.
 
 ### Number of Rows (Samples) and Columns
 The dataset consists of 1338 rows which correspond to 1338 samples and there are 7 columns in total.
