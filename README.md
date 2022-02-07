@@ -33,7 +33,7 @@ The last 1 column in the dataset serves as the target or output of the machine l
 ## Approaches and Baselines
 The 3 machine learning algorithms implemented in this project are Stochastic Gradient Descent Regression (SGD Regression), Support Vector Regression (SVR), and Decision Tree Regression.
 
-### Main Libraries for Algorithm Implementation
+### Main Libraries or Modules for Algorithm Implementation
 The 3 machine learning algorithms are implemented with the help of several Scikit-learn libraries, which are
 - sklearn.linear_model.SGDRegressor for SGD Regression,
 - sklearn.svm.SVR for SVR, and
